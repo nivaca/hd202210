@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+  schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Rayuela [manuscrito]</title>
+        <author>Julio Cortázar</author>
+        <editor>Nicolás Vaughan</editor>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>
+          Universidad de los Andes
+        </distributor>
+        <date>2022</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <persName>Julio Cortázar</persName>,
+          <title>Rayuela</title>.
+          Edición conmemorativa.
+          <placeName>Barcelona</placeName>: 
+          <name>Real Academia Española</name>,
+          <date>2019</date>, pp. 109-110.
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:lang="es">
+    <body>
+      <div>
+        
+        <pb n="109" ana="p.231 (paginación de abajo)"/>
+        
+        <head type="title">Manicomio</head>
+        
+        <p>¿Está loco <persName>Horacio</persName>?</p>
+        
+        <p>
+          El problema es que todo tiende a centrarse demasiado en 
+          <persName><choice><abbr>H.O.</abbr><expan>Horacio Oliveira</expan></choice></persName>.
+          Caemos en el soliloquio excesivo, la desmesura egocéntrica.
+          <del>
+            Partir ahora de la Maga, desde Montevideo, llevando a <placeName><choice><abbr>B.A.</abbr><expan>Buenos Aires</expan></choice></placeName> arrestada, loca?
+          </del>
+        </p>
+        
+        <p>
+          Centrar la acción en <persName>Talita</persName> y <persName>Traveler</persName> en lo posible.
+          <emph rend="subrayado">Miran</emph> a
+          <persName><choice><abbr>H.O.</abbr><expan>Horacio Oliveira</expan></choice></persName>, y lo vemos a través de ellos.
+          (Esto hasta el manicomio, en que <persName><choice><abbr>H.O.</abbr><expan>Horacio Oliveira</expan></choice></persName> recobrará el primer plano.)
+        </p>
+        
+        
+        <p>
+          Hacer continuamente de manera que las cosas, 
+          y las palabras para las cosas, 
+          y las palabras para la imaginación, 
+          sean ellas mismas y no lo que ha hecho la historia. 
+          <del>Cuando <gap reason="illegible"/> alguien</del> 
+          Hacer que un querubín no <del>sea</del> 
+          evoque el paje de <persName>Beaumarchais</persName> 
+          <add>y el niño de nuestra tía <persName>Sonia</persName>,</add> 
+          sino <subst><del>al</del><add>a los</add></subst> 
+          <foreign>Kerubin</foreign> de <persName>Ezequiel</persName>, 
+          con sus alas y sus fuegos y sus rostros y sus zafiros. 
+          <del>animales en el río de <placeName>Chebar</placeName>.</del>
+        </p>
+        
+        
+        <pb n="110" ana="p.232 (paginación de abajo)"/>
+        
+        
+        <p>Increíble <soCalled>coincidencia</soCalled>:</p>
+        
+        <p xml:lang="en">
+          <del>
+            <quote>
+              <q>And if I do get to South America one day?</q> 
+              (He had begun <del cert="low">to</del> talking alone to himself.) 
+              <q>
+                It may take years. 
+                And what language will I speak? 
+                And why will they take me, a stranger and 
+                <del cert="low">so</del> unknown? 
+                Who knows if they even have a circus on such places. 
+                If they do, they will have their own clowns and their own language.
+              </q>
+            </quote>
+            <bibl>
+              <author><persName>Miller</persName>,</author>
+              <title>The 
+                <subst><del><gap reason="illegible"/></del><add>Smile</add></subst>
+                at the Foot of the Ladder</title>
+            </bibl>.
+          </del>
+        </p>
+        
+        <p>
+          <del> 
+            <lb/><persName>Talita</persName> empieza a crecer.
+            <lb/><del>Salta en un pie (¿Alice?)</del>
+            <lb/><persName>Talita</persName> en el circo. 
+            <rs>
+              Monólogo de <persName>Talita</persName>.
+            </rs>
+          </del>
+        </p>
+        
+        <p>
+          La discusión sobre los granos puede ser con la
+          <persName>Cuca Ferraguto</persName>.
+        </p>
+        
+      </div>
+    </body>
+  </text>
+</TEI>
